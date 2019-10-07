@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link src="https://meyerweb.com/eric/tools/css/reset/reset.css" rel="stylesheet" />
+  <link rel="stylesheet" href="PrimaryApp.css" />
+  <link rel="stylesheet" href="SubmitLink.css" />
+  <title>direct.me - Submit Listing View</title>
+</head>
+<body>
+  <header>
+    <section class="top">
+      <div class="titles">
+        <h1>direct.me</h1>
+        <h2>a modern web directory</h2>
+      </div>
+      <div class="websiteButton infoBox">
+        website info
+      </div>
+      <div class="websiteButton infoBox">
+        account options
+      </div>
+    </section>
+    <section class="searchBar">
+      <input type="text" placeholder="search..." />
+    </section>
+    <section class="locationBar">
+      <div class="currentLocation">[Programming]</div>
+      <div class="nextLocation">[home]</div>
+      <div class="lineBar"></div>
+    </section>
+  </header>
+
+
+  <main>
+
+    <form class="submitLink" id="submitLink" name="submitLink">
+        <legend><h3>Submit a Listing</h3></legend>
+      <label for="title">Title:</label>
+      <input type="text" id="title" name="title" placeholder="listing title" />
+      <label for ="url">URL:</label>
+      <input type="text" id="url" name="url" placeholder="http://..." />
+      <label for="description">Description: </label></label>
+      <input type="text" id="description" name="description" placeholder="description" />
+      <label for="hubList">Hubs:</label>
+      <input type="text" id="tag" name="tag" placeholder="+">
+      <button type="button">+</button>
+      <ul>
+        <li>#Javascript {{Established} #programming [X]}</li>
+        <li>#Tutorial [x]</li>
+      </ul>
+
+      <button type="submit">Submit</button>
+      <button type="cancel">Cancel</button>
+    </form>
+
+
+    </form>
+    </main>
+  
+</body>
+</html>

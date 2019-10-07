@@ -1,0 +1,74 @@
+
+.chooseHeader {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 10px;
+}
+
+.chooseHeader div {
+  width: 100%;
+  text-align: center;
+}
+
+.chooseHeader .firstTab {
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.chooseHeader .lastTab {
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.headerInfo {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.headerInfo div {
+  width: 100%;
+  text-align: center;
+}
+
+.headerInfo .firstTab {
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.headerInfo .lastTab {
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.catListingNumbersItem {
+  border-bottom: none;
+}
+
+.catListingNumbersItemBottom {
+  border: 1px solid black;
+  border-top: none;
+  background-color: lightgray;
+  text-align: center;
+}
+
+h5 span {
+  font-style: italic;
+}
+
+.catListingInfo p {
+  margin-top: 10px;
+}
+
+.CatListingBottomRow {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.CatListingBottomRow .comments {
+  display: flex;
+}
+
+.tagList {
+  display: flex;
+}
